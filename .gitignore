@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# misc privates folders
+/src-breaking-bad
+/src-dog
+.DS_Store
