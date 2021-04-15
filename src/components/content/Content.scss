@@ -18,19 +18,16 @@
 
 @media screen and (min-width: 700px)
 {
-
   .content {
     .contentScroll {
       min-height: 100%;
     }
   }
-
 }
 
 
 @media screen and (min-width: 1000px)
 {
-
   .content {
     .contentScroll {
       grid-template-columns: 400px 1fr;
@@ -39,5 +36,4 @@
       height: 100%;
     }
   }
-
 }

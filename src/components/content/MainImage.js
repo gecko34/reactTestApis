@@ -1,12 +1,14 @@
 
-import "./MainImage.scss";
-import image from "./../../public/600-600.png";
 
-const MainImage = () => {
+import "./MainImage.scss";
+// import image from "./../../public/Breaking-Bad.jpg";
+
+const MainImage = (props) => {
+
   return (
     <div className="contentImage">
       <div>
-        <img src={image} alt="" />
+        <img src={props.picture} alt="" />
       </div>
     </div>
   );

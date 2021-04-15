@@ -11,38 +11,38 @@
     flex-direction: column;
     width:100%;
 
-    .item {
-      background-color: $items-primary-color;
-      display: flex;
-      padding:10px;
-
-      &:nth-child(even) {
-        background-color: $items-secondary-color;
-      }
-
-      .itemImage {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 10px;
-
-        img {
-          width: 130px;
-          height: 150px;
-        }
-      }
-
-      .text {
-        display: flex;
-        flex:1;
-        align-items: center;
-
-        div {
-          text-overflow: ellipsis;
-          white-space: normal;
-        }
-      }
-    }
+    // .item {
+    //   background-color: $items-primary-color;
+    //   display: flex;
+    //   padding:10px;
+    //
+    //   &:nth-child(even) {
+    //     background-color: $items-secondary-color;
+    //   }
+    //
+    //   .itemImage {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     padding-right: 10px;
+    //
+    //     img {
+    //       width: 130px;
+    //       height: 150px;
+    //     }
+    //   }
+    //
+    //   .text {
+    //     display: flex;
+    //     flex:1;
+    //     align-items: center;
+    //
+    //     div {
+    //       text-overflow: ellipsis;
+    //       white-space: normal;
+    //     }
+    //   }
+    // }
 
   }
 }
@@ -57,26 +57,26 @@
       flex-direction: row;
       flex-wrap: wrap;
 
-      .item {
-        width: 50%;
-
-        &:nth-child(4n+1) {
-          background-color: $items-primary-color;
-        }
-
-        &:nth-child(4n+2) {
-          background-color: $items-secondary-color;
-        }
-
-        &:nth-child(4n+3) {
-          background-color: $items-secondary-color;
-        }
-
-        &:nth-child(4n+4) {
-          background-color: $items-primary-color;
-        }
-
-      }
+      // .item {
+      //   width: 50%;
+      //
+      //   &:nth-child(4n+1) {
+      //     background-color: $items-primary-color;
+      //   }
+      //
+      //   &:nth-child(4n+2) {
+      //     background-color: $items-secondary-color;
+      //   }
+      //
+      //   &:nth-child(4n+3) {
+      //     background-color: $items-secondary-color;
+      //   }
+      //
+      //   &:nth-child(4n+4) {
+      //     background-color: $items-primary-color;
+      //   }
+      //
+      // }
     }
   }
 
@@ -95,20 +95,20 @@
       flex-direction: row;
       overflow: auto;
 
-      .item {
-        width: 100%;
-        height:200px;
-
-
-        &:nth-child(odd) {
-          background-color: $items-secondary-color;
-        }
-
-        &:nth-child(even) {
-        background-color: $items-primary-color;
-        }
-
-      }
+      // .item {
+      //   width: 100%;
+      //   height:200px;
+      //
+      //
+      //   &:nth-child(odd) {
+      //     background-color: $items-secondary-color;
+      //   }
+      //
+      //   &:nth-child(even) {
+      //   background-color: $items-primary-color;
+      //   }
+      //
+      // }
 
     }
   }

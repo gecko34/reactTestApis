@@ -1,12 +1,21 @@
 @import "../../themes/orangeTheme";
 
+
 .item {
   background-color: $items-primary-color;
   display: flex;
   padding:10px;
 
+  &.selected {
+    background-color: $selected-color;
+  }
+
   &:nth-child(even) {
     background-color: $items-secondary-color;
+  }
+
+  &:nth-child(even).selected {
+    background-color: $selected-color;
   }
 
   .itemImage {
@@ -32,6 +41,7 @@
     }
   }
 }
+
 
 
 @media screen and (min-width: 700px)

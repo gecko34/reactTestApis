@@ -1,0 +1,5 @@
+https://dmitripavlutin.com/dont-overuse-react-usecallback/
+
+https://www.robinwieruch.de/react-usecallback-hook
+
+https://www.digitalocean.com/community/tutorials/understanding-map-and-set-objects-in-javascript-fr

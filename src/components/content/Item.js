@@ -1,17 +1,30 @@
+import { useState } from 'react';
 import "./Item.scss";
-import image from "./../../public/600-600.png";
 
 
-const Item = () => {
+const Item = (props) => {
+
+  const [itemMemo, setItemMemo] = useState(false);
+
+  const functionSelected = () => {
+    setItemMemo(!itemMemo);
+    props.clickHandler(!itemMemo);
+  }
+
+
   return (
-    <div class="item">
-      <div class="itemImage">
-        <img src={image} alt="" />
+
+    <div
+      className={ itemMemo === true ? "item selected" : "item" }
+      onClick={() => functionSelected()}
+    >
+      <div className="itemImage">
+        <img src={props.itemImage} alt="" ></img>
       </div>
 
-      <div class="text">
+      <div className="text">
         <div>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature ars old. Richard McClintock, a  professor at Hampden-Sydnfrom 45 BC, making it over 2000 years old. Richard McClintock, a  professor at Hampden-Sydney College in Virginia
+          {props.itemText}
         </div>
       </div>
     </div>

@@ -23,6 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # misc privates folders
-/src-breaking-bad
-/src-dog
+/src-olds
 .DS_Store
